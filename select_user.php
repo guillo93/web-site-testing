@@ -18,15 +18,15 @@ $row = mysql_fetch_array($result);
 
 if($row)
 {
-	printf("<p>Пользователь: " .$row['first_name'] . " " .$row['last_name'] ."</p> 
-	<p><i>Контактные данные</i></p><p>E-mail: " .$row['email'] . "</p><p>Facebook: " .$row['facebook'] . "</p>---------<br/>"
+	printf("<p>ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј: " .$row['first_name'] . " " .$row['last_name'] ."</p> 
+	<p><i>ГЉГ®Г­ГІГ ГЄГІГ­Г»ГҐ Г¤Г Г­Г­Г»ГҐ</i></p><p>E-mail: " .$row['email'] . "</p><p>Facebook: " .$row['facebook'] . "</p>---------<br/>"
 	);
 }
-else{echo ("Пользователя с таким именем в базе нет<br/><br/>");}
+else{echo ("ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Г± ГІГ ГЄГЁГ¬ ГЁГ¬ГҐГ­ГҐГ¬ Гў ГЎГ Г§ГҐ Г­ГҐГІ<br/><br/>");}
 
-
+<img src="/image.jpg" alt="images-1" />
 ?>
-<a href="search_user.html">Вернуться к поиску</a><br/><br/>
-<a href="info_form.html">Добавить пользователя</a>
+<a href="search_user.html">Г‚ГҐГ°Г­ГіГІГјГ±Гї ГЄ ГЇГ®ГЁГ±ГЄГі</a><br/><br/>
+<a href="info_form.html">Г„Г®ГЎГ ГўГЁГІГј ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї</a>
 </body>
 </html>
